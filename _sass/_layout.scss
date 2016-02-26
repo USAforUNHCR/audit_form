@@ -92,9 +92,15 @@
 /**
  * Site footer
  */
+
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    background-color: lighten(#005B9A, 60%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 1em;
 }
 
 .footer-heading {

@@ -3,21 +3,20 @@ layout: home
 ---
 
 <div class="home">
+  <div class="intro">
+    <p>
+      <span class="first-line">We all know that technology alone is not the answer,</span><br> and no single organization or entity will be able to solve the global refugee crisis on its own. We know there are lots of ideas being discussed and important initiatives already underway.
+    </p>
+    <p>
+      One significant challenge is information-sharing and communications. If we can organize this conversation better than it has been organized before then this effort has the potential to be transformative.
+    </p>
+    <p>
+      An important step in that effort is to develop a master list of the projects, key contacts, available resources and other energy being focused on this important issue. Help us to develop that list by telling us about your project below.
+    </p>
+  </div>
+  <div class="form-wrapper">
+    <iframe class="form" src="https://docs.google.com/forms/d/1bXiguhe7nJSs-IQ9jVK_AUiw1V1pUY2UGEfFzdSqNoQ/viewform?embedded=true"  frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+  </div>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <div class="footer-line">Powered by the <a href="http://projecthive.us" target="_blank">Hive</a>, a special project of <a href="http://unrefugees.org" target="_blank">USA for UNHCR</a></div>
 </div>
