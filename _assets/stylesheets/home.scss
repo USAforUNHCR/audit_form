@@ -24,30 +24,33 @@
   padding-top: 4em;
   background-color: #9E9E9E;
   padding-bottom: 2em;
-  & p{
-    text-align: center;
-    color: darken(#9E9E9E,30%);
+  & .intro-text-box{
     background-color: lighten(#9E9E9E, 50%);
     padding: 1em;
-    border-radius: 0.4em;
-    width: 90%;
-    max-width: 800px;
-    margin: auto;
-    margin-bottom: 0.5em;
-    & span{
-      font-size: 1.25em;
-      font-family: 'Anonymous Pro' ;
-      padding: 1em;
+      border-radius: 0.4em;
+      width: 90%;
+      max-width: 800px;
+      margin: auto;
+      margin-bottom: 0.5em;
+    & p{
+      text-align: center;
+      color: darken(#9E9E9E,30%);
+      
+      & span{
+        font-size: 1.25em;
+        font-family: 'Anonymous Pro' ;
+        padding: 1em;
+      }
     }
   }
   @media screen and (max-width: 700px){
-    padding-top: 0.5em;
-    & p{
-      font-size: 0.75em;
-      & span{
-        font-size: 1em;
+      padding-top: 0.5em;
+      & p{
+        font-size: 0.75em;
+        & span{
+          font-size: 1em;
+        }
       }
-    }
   }
 }
 
