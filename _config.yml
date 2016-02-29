@@ -2,8 +2,7 @@
 title: Refugee Solutions Network
 email: updates@refugeesolutionsnetwork.com
 description: > # this means to ignore newlines until "baseurl:"
-  We all know that technology alone is not the answer,
-and no single organization or entity will be able to solve the global refugee crisis on its own. We know there are lots of ideas being discussed and important initiatives already underway.
+  We all know that technology alone is not the answer, and no single organization or entity will be able to solve the global refugee crisis on its own. We know there are lots of ideas being discussed and important initiatives already underway.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://refugeesolutionsnetwork.com" # the base hostname & protocol for your site
 twitter_username: 
