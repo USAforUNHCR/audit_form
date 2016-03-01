@@ -2,6 +2,7 @@
   width:100vw;
   height: 1730px;
   position: relative;
+  // background-image: url("/images/header.png");
 }
 
 .form{
@@ -23,9 +24,12 @@
   position: relative;
   z-index: 10;
   padding-top: 4em;
-  background-color: #333333;
+  // background-color: #333333;
   padding-bottom: 2em;
   text-align: center;
+  background-image: url("/images/header.png");
+  background-attachment: bottom;
+  background-repeat: repeat-x;
   & h1{
     font-weight: 700;
     color: #FFB74D;
@@ -59,7 +63,7 @@
 }
 
 .home{
-  background-color: #9E9E9E;
+  background-color: #333333;
 }
 
 .footer-line{
