@@ -1,13 +1,13 @@
 .form-wrapper{
   width:100vw;
-  height: 90vh;
+  height: 1730px;
   position: relative;
 }
 
 .form{
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   top: -10em;
   @media screen and (max-width: 730px){
     top: -7em;
@@ -61,5 +61,6 @@
 .footer-line{
   text-align: center;
   color: white;
-  margin-bottom: -3em;
+  position: relative;
+  bottom: 7em;
 }
