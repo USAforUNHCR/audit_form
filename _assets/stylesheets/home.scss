@@ -18,14 +18,20 @@
 }
 
 .intro{
+  font-family: 'PT Sans', sans-serif;
   font-size: 1.25em;
   position: relative;
   z-index: 10;
   padding-top: 4em;
-  background-color: #9E9E9E;
+  background-color: #333333;
   padding-bottom: 2em;
+  text-align: center;
+  & h1{
+    font-weight: 700;
+    color: #FFB74D;
+  }
   & .intro-text-box{
-    background-color: lighten(#9E9E9E, 50%);
+
     padding: 1em;
       border-radius: 0.4em;
       width: 90%;
@@ -34,12 +40,10 @@
       margin-bottom: 0.5em;
     & p{
       text-align: center;
-      color: darken(#9E9E9E,30%);
+      color: white;
       
       & span{
-        font-size: 1.25em;
-        font-family: 'Anonymous Pro' ;
-        padding: 1em;
+        color: #FFB74D;
       }
     }
   }
